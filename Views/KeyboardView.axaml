@@ -1,0 +1,52 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:vm="using:blindy.ViewModels"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="blindy.Views.KeyboardView"
+             x:DataType="vm:KeyboardViewModel"
+             DataContext="{Binding Keyboard}">
+
+  <Border Background="#242234"
+          Margin="3"
+          Padding="5"
+          Width="914"
+          HorizontalAlignment="Center"
+          BoxShadow="0 2 5 #101010"
+          CornerRadius="12">
+    <StackPanel HorizontalAlignment="Center">
+      <ItemsRepeater ItemsSource="{Binding Keyboard.Layout.KeyCollection}">
+        <ItemsRepeater.ItemTemplate>
+          <DataTemplate>
+            <ItemsRepeater ItemsSource="{Binding}">
+              <ItemsRepeater.Layout>
+                  <StackLayout Orientation="Horizontal"/>
+              </ItemsRepeater.Layout>
+              <ItemsRepeater.ItemTemplate>
+                <DataTemplate>
+                  <Border Classes.KeyboardButton="{Binding Styles[0]}"
+                          Classes.KbBtnThumbs="{Binding Styles[1]}"
+                          Classes.KbBtnIndexR="{Binding Styles[2]}"
+                          Classes.KbBtnMiddleR="{Binding Styles[3]}"
+                          Classes.KbBtnRingR="{Binding Styles[4]}"
+                          Classes.KbBtnPinkyR="{Binding Styles[5]}"
+                          Classes.KbBtnIndexL="{Binding Styles[6]}"
+                          Classes.KbBtnMiddleL="{Binding Styles[7]}"
+                          Classes.KbBtnRingL="{Binding Styles[8]}"
+                          Classes.KbBtnPinkyL="{Binding Styles[9]}"
+                          Classes.Marked="{Binding Marked}">
+                      <Panel>
+                        <TextBlock Classes="KeyboardButtonAddText" Text="{Binding AddKey}"/>
+                        <TextBlock Classes="KeyboardButtonText" Text="{Binding Key}" Margin="{Binding Margin}"/>
+                      </Panel>
+                  </Border>
+                </DataTemplate>
+              </ItemsRepeater.ItemTemplate>
+            </ItemsRepeater>
+          </DataTemplate>
+        </ItemsRepeater.ItemTemplate>
+      </ItemsRepeater>
+    </StackPanel>
+  </Border>
+</UserControl>

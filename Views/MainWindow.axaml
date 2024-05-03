@@ -1,0 +1,57 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:v="using:blindy.Views"
+        xmlns:vm="using:blindy.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="blindy.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/blindy-logo.ico"
+        Title="Клавиатор"
+
+        MinHeight="500"
+        MinWidth="1220"
+        Width="1220"
+        Height="625"
+
+        TransparencyLevelHint="AcrylicBlur"
+        Background="Transparent"
+        ExtendClientAreaToDecorationsHint="True">
+
+  <Border Background="#272537">
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="200"/>
+        <ColumnDefinition/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="75"/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+
+      <TextBlock Text="Клавиатор"
+                 VerticalAlignment="Center"
+                 Foreground="Gray"
+                 FontSize="22"
+                 FontFamily="Arial"
+                 Margin="20,0,0,0"/>
+
+      <ItemsControl ItemsSource="{Binding MenuItems}"
+                    Grid.Row="1">
+        <ItemsControl.ItemTemplate>
+          <DataTemplate>
+            <RadioButton Classes="MenuButton"
+                         Content="{Binding Content}"
+                         GroupName="MainMenu"
+                         IsChecked="{Binding IsChecked, Mode=TwoWay}"
+                         Height="50">
+            </RadioButton>
+          </DataTemplate>
+        </ItemsControl.ItemTemplate>
+      </ItemsControl>
+
+      <v:TyperView Grid.Row="1" Grid.Column="1"/>
+    </Grid>
+  </Border>
+</Window>

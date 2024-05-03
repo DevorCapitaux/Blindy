@@ -1,0 +1,792 @@
+[
+  [
+    {
+      "Key": "\u0060",
+      "KeyId": "\u0060",
+      "AddKey": "~",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 9
+    },
+    {
+      "Key": "1",
+      "KeyId": "1",
+      "AddKey": "!",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 9
+    },
+    {
+      "Key": "2",
+      "KeyId": "2",
+      "AddKey": "@",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 9
+    },
+    {
+      "Key": "3",
+      "KeyId": "3",
+      "AddKey": "#",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 8
+    },
+    {
+      "Key": "4",
+      "KeyId": "4",
+      "AddKey": "$",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 7
+    },
+    {
+      "Key": "5",
+      "KeyId": "5",
+      "AddKey": "%",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 6
+    },
+    {
+      "Key": "6",
+      "KeyId": "6",
+      "AddKey": "^",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 6
+    },
+    {
+      "Key": "7",
+      "KeyId": "7",
+      "AddKey": "\u0026",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 2
+    },
+    {
+      "Key": "8",
+      "KeyId": "8",
+      "AddKey": "*",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 3
+    },
+    {
+      "Key": "9",
+      "KeyId": "9",
+      "AddKey": "(",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 4
+    },
+    {
+      "Key": "0",
+      "KeyId": "0",
+      "AddKey": ")",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    },
+    {
+      "Key": "-",
+      "KeyId": "-",
+      "AddKey": "_",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    },
+    {
+      "Key": "=",
+      "KeyId": "=",
+      "AddKey": "\u002B",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    },
+    {
+      "Key": "BackSpace",
+      "KeyId": "backspace",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    }
+  ],
+  [
+    {
+      "Key": "Tab",
+      "KeyId": "tab",
+      "AddKey": "",
+      "Constraints": [
+        20,
+        0,
+        36,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    },
+    {
+      "Key": "Q",
+      "KeyId": "q",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 9
+    },
+    {
+      "Key": "W",
+      "KeyId": "w",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 8
+    },
+    {
+      "Key": "E",
+      "KeyId": "e",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 7
+    },
+    {
+      "Key": "R",
+      "KeyId": "r",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 6
+    },
+    {
+      "Key": "T",
+      "KeyId": "t",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 6
+    },
+    {
+      "Key": "Y",
+      "KeyId": "y",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 2
+    },
+    {
+      "Key": "U",
+      "KeyId": "u",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 2
+    },
+    {
+      "Key": "I",
+      "KeyId": "i",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 3
+    },
+    {
+      "Key": "O",
+      "KeyId": "o",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 4
+    },
+    {
+      "Key": "P",
+      "KeyId": "p",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    },
+    {
+      "Key": "[",
+      "KeyId": "[",
+      "AddKey": "{",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    },
+    {
+      "Key": "]",
+      "KeyId": "]",
+      "AddKey": "}",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    },
+    {
+      "Key": "\\",
+      "KeyId": "\\",
+      "AddKey": "|",
+      "Constraints": [
+        50,
+        0,
+        20,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    }
+  ],
+  [
+    {
+      "Key": "Caps",
+      "KeyId": "caps",
+      "AddKey": "",
+      "Constraints": [
+        20,
+        0,
+        40,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    },
+    {
+      "Key": "A",
+      "KeyId": "a",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 9
+    },
+    {
+      "Key": "S",
+      "KeyId": "s",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 8
+    },
+    {
+      "Key": "D",
+      "KeyId": "d",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 7
+    },
+    {
+      "Key": "F",
+      "KeyId": "f",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 6
+    },
+    {
+      "Key": "G",
+      "KeyId": "g",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 6
+    },
+    {
+      "Key": "H",
+      "KeyId": "h",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 2
+    },
+    {
+      "Key": "J",
+      "KeyId": "j",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 2
+    },
+    {
+      "Key": "K",
+      "KeyId": "k",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 3
+    },
+    {
+      "Key": "L",
+      "KeyId": "l",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 4
+    },
+    {
+      "Key": ";",
+      "KeyId": ";",
+      "AddKey": ":",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    },
+    {
+      "Key": "\u0027",
+      "KeyId": "\u0027",
+      "AddKey": "\u0022",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    },
+    {
+      "Key": "Enter",
+      "KeyId": "enter",
+      "AddKey": "",
+      "Constraints": [
+        62,
+        0,
+        20,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    }
+  ],
+  [
+    {
+      "Key": "Shift",
+      "KeyId": "shift_l",
+      "AddKey": "",
+      "Constraints": [
+        20,
+        0,
+        72,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    },
+    {
+      "Key": "Z",
+      "KeyId": "z",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 9
+    },
+    {
+      "Key": "X",
+      "KeyId": "x",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 8
+    },
+    {
+      "Key": "C",
+      "KeyId": "c",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 7
+    },
+    {
+      "Key": "V",
+      "KeyId": "v",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 6
+    },
+    {
+      "Key": "B",
+      "KeyId": "b",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 6
+    },
+    {
+      "Key": "N",
+      "KeyId": "n",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 2
+    },
+    {
+      "Key": "M",
+      "KeyId": "m",
+      "AddKey": "",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 2
+    },
+    {
+      "Key": ",",
+      "KeyId": ",",
+      "AddKey": "\u003C",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 3
+    },
+    {
+      "Key": ".",
+      "KeyId": ".",
+      "AddKey": "\u003E",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 4
+    },
+    {
+      "Key": "/",
+      "KeyId": "/",
+      "AddKey": "?",
+      "Constraints": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "Marked": false,
+      "Finger": 5
+    },
+    {
+      "Key": "Shift",
+      "KeyId": "shift_r",
+      "AddKey": "",
+      "Constraints": [
+        98,
+        0,
+        20,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    }
+  ],
+  [
+    {
+      "Key": "Ctrl",
+      "KeyId": "ctrl_l",
+      "AddKey": "",
+      "Constraints": [
+        20,
+        0,
+        50,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    },
+    {
+      "Key": "Meta",
+      "KeyId": "meta_l",
+      "AddKey": "",
+      "Constraints": [
+        20,
+        0,
+        20,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    },
+    {
+      "Key": "Alt",
+      "KeyId": "alt_l",
+      "AddKey": "",
+      "Constraints": [
+        20,
+        0,
+        20,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    },
+    {
+      "Key": "",
+      "KeyId": "space",
+      "AddKey": "",
+      "Constraints": [
+        160,
+        0,
+        160,
+        0
+      ],
+      "Marked": false,
+      "Finger": 1
+    },
+    {
+      "Key": "Alt",
+      "KeyId": "alt_r",
+      "AddKey": "",
+      "Constraints": [
+        20,
+        0,
+        20,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    },
+    {
+      "Key": "Meta",
+      "KeyId": "meta_r",
+      "AddKey": "",
+      "Constraints": [
+        20,
+        0,
+        20,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    },
+    {
+      "Key": "Ctrl",
+      "KeyId": "ctrl_r",
+      "AddKey": "",
+      "Constraints": [
+        116,
+        0,
+        20,
+        0
+      ],
+      "Marked": false,
+      "Finger": 0
+    }
+  ]
+]

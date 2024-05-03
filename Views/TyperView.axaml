@@ -1,0 +1,29 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:v="using:blindy.Views"
+             xmlns:vm="using:blindy.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="blindy.Views.TyperView"
+             DataContext="{Binding Content}">
+
+  <DockPanel>
+    <v:KeyboardView DockPanel.Dock="Bottom" Margin="25"/>
+
+    <StackPanel Margin="25" DockPanel.Dock="Top">
+      <Border BorderBrush="DimGray"
+              BorderThickness="2"
+              CornerRadius="8"
+              Padding="5">
+        <TextBlock Classes="TyperBlock" Inlines="{Binding Inlines}"/>
+      </Border>
+      <ProgressBar Minimum="0"
+                   Maximum="{Binding ProgressBarMaximum}"
+                   Value="{Binding ProgressBarValue}"
+                   Margin="8,0"
+                   Background="#201e2d"
+                   Foreground="#4c476a"/>
+    </StackPanel>
+  </DockPanel>
+</UserControl>

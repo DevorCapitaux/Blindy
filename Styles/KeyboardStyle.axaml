@@ -1,0 +1,108 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style Selector="TextBlock.KeyboardButtonText">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="Foreground" Value="DarkGray"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="10,0,10,0"/>
+    </Style>
+
+    <Style Selector="TextBlock.KeyboardButtonAddText">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="Foreground" Value="DarkGray"/>
+        <Setter Property="Margin" Value="5,5,0,0"/>
+    </Style>
+    
+    <Style Selector="Border.KeyboardButton">
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Background" Value="#201e2d"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.KbBtnThumbs">
+        <Setter Property="Background" Value="#5c4b70"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.KbBtnIndexR">
+        <Setter Property="Background" Value="#4d486e"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.KbBtnMiddleR">
+        <Setter Property="Background" Value="#413d5c"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.KbBtnRingR">
+        <Setter Property="Background" Value="#36324c"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.KbBtnPinkyR">
+        <Setter Property="Background" Value="#2b293d"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.KbBtnIndexL">
+        <Setter Property="Background" Value="#523b58"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.KbBtnMiddleL">
+        <Setter Property="Background" Value="#433652"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.KbBtnRingL">
+        <Setter Property="Background" Value="#36324c"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.KbBtnPinkyL">
+        <Setter Property="Background" Value="#2b293d"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+
+    <Style Selector="Border.Marked">
+        <Setter Property="Background" Value="#696e48"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="MinWidth" Value="55"/>
+        <Setter Property="Height" Value="55"/>
+    </Style>
+</Styles>
+<!-- #4f4b70 -->
+<!-- #606a47 - Green -->
+<!-- #66608f -->

@@ -1,0 +1,35 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style Selector="TextBlock.TyperBlock">
+        <Setter Property="FontFamily" Value="Source Code Pro"/>
+        <Setter Property="FontSize" Value="22"/>
+        <Setter Property="Foreground" Value="Gray"/>
+    </Style>
+
+    <Style Selector="Run.TextDefault">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+    <Style Selector="Run.TextToType">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="Gray"/>
+    </Style>
+    <Style Selector="Run.TypedTextNormal">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+    <Style Selector="Run.TypedTextError">
+        <Setter Property="Background" Value="HotPink"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style Selector="Run.CursorDefault">
+        <Setter Property="Background" Value="Gray"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+    <Style Selector="Run.CursorError">
+        <Setter Property="Background" Value="HotPink"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+</Styles>
